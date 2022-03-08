@@ -14,5 +14,17 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('test');
+    return "Homepage";
+});
+
+Route::get('/', function () {
+    return "Liste des produits";
+});
+
+Route::get('/', function () {
+    return "Fiche du produit {id}";
+});
+
+Route::get('/', function () {
+    return "Panier";
 });

@@ -34,6 +34,7 @@
                         @endif
                     @endauth
                 </div>
+
             @endif
 
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
@@ -121,7 +122,7 @@
                             </a>
                         </div>
                     </div>
-
+                    {{gggs}}
                     <div class="ml-4 text-center text-sm text-gray-500 sm:text-right sm:ml-0">
                         Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
                     </div>
