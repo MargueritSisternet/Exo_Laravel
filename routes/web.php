@@ -14,17 +14,17 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return "Homepage";
+    return 'Homepage';
 });
 
-Route::get('/', function () {
-    return "Liste des produits";
+Route::get('/product', function () {
+    return 'Liste des produits';
 });
 
-Route::get('/', function () {
-    return "Fiche du produit {id}";
+Route::get('/product/{id}', function () {
+    return 'Fiche du produit'.$id;
 });
 
-Route::get('/', function () {
-    return "Panier";
+Route::get('/cart ', function () {
+    return 'Panier';
 });
